@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101010;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*MENU DO SITE*/
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+}
+
+nav li:hover {
+    background-color: rgb(46, 155, 218);
+    transition: 0.3s;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.log-button {
+    background-color: #ed546f;
+}
+
+.log-button:hover {
+    transition: 0.3s;
+    background-color: #2e9bda;
+}
+
+/*MENU DO SITE*/
+
+.container {
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+}
+
+h1 {
+    font-family: OCR A Std, monospace;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+    font-size: 35px;
+}
+
+.img-png {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+#imagem {
+    position: absolute;
+    transform-style: preserve-3d
+    transition: transform 0.2s;
+}
+
+span {
+    color: rgb(46, 155, 218);
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: #ed546f;
+    background-color: #ed546f;
+    border-radius: 10px;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #2e9bda;
+    border-color: #2e9bda;
+    transition: 0.3s;
+}
+
+/*TELA DE ABOUT*/
+
+.about {
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-center {
+    width: 80%;
+    display: flex;
+    gap: 3rem;
+}
+
+.about-img {
+    width: 45%;
+    height: 49vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.icons {
+    width: 60%;
+    height: 80px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-animation:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    filter: brightness(80%);
+}
+
+h3 {
+    width: 250px;
+    font-size: 50px;
+    color: #2e9bda;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-color: #ed546f;
+    font-family: OCR A Std, monospace;
+}
+
+p {
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+}
